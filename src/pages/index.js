@@ -1,7 +1,8 @@
 import React from "react"
 import Header from "../components/Header";
 import Banner from "../components/Banner";
-import Main from "../components/Main"
+import Main from "../components/Main";
+import Feature from "../components/Feature"
 import styled from "styled-components"
 
 const Container = styled.div `
@@ -16,6 +17,7 @@ const Container = styled.div `
       <Header />
       <Banner />
       <Main />
+      <Feature />
   </Container>
  
 )
