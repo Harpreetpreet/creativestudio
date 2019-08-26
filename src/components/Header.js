@@ -1,64 +1,73 @@
 import React from "react"
+import styled from "styled-components"
+const Container = styled.div `
+  margin-top:2rem;
+`
 const Header = () => (
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="https://bulma.io">
-      <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"/>
-    </a>
-
-    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+  <section classname="section">
+    <nav className="navbar top is-fixed-top" role="navigation" aria-label="main navigation">
+    <div className="container">
+    <Container className="img is-size-4 has-text-centered" > <img src="https://colorlib.com/preview/theme/shotgear/img/logo.png"></img>
+    </Container>
+    <a role="button" className="navbar-burger burger  " aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
-  </div>
-
-  <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-      <a class="navbar-item">
-        Home
+    <div id="navbarBasicExample" className="navbar-menu  ">
+    <div className="navbar-end ">
+    <a className=" titl navbar-item has-text-black has-text-weight-bold" >
+        HOME
       </a>
 
-      <a class="navbar-item">
-        Documentation
+      <a className=" titl navbar-item has-text-black has-text-weight-bold">
+     ABOUT 
+      </a>
+      <a className=" titl navbar-item has-text-black has-text-weight-bold">
+        SERVICE
       </a>
 
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More
+      <div className="navbar-item has-dropdown is-hoverable ">
+        <a className="titl navbar-link has-text-black has-text-weight-bold">
+          PORTFOLIO
         </a>
-
-        <div class="navbar-dropdown">
-          <a class="navbar-item">
-            About
+        <div className="navbar-dropdown">
+          <a className="navbar-item ">
+            Portfolio
           </a>
-          <a class="navbar-item">
-            Jobs
-          </a>
-          <a class="navbar-item">
-            Contact
-          </a>
-          <hr class="navbar-divider"/>
-          <a class="navbar-item">
-            Report an issue
+          <a className="navbar-item ">
+            Portfolio details
           </a>
         </div>
       </div>
-    </div>
-
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button is-primary">
-            <strong>Sign up</strong>
+    <div className="navbar-item has-dropdown is-hoverable ">
+        <a className=" titl navbar-link has-text-black has-text-weight-bold">
+        BLOG
+        </a>
+        <div className="navbar-dropdown">
+          <a className="navbar-item ">
+            Blog
           </a>
-          <a class="button is-light">
-            Log in
+          <a className="navbar-item ">
+            Single Blog
           </a>
         </div>
+    </div>
+    <div className="navbar-item has-dropdown is-hoverable">
+      <a className=" titl navbar-link has-text-black has-text-weight-bold"> PAGES</a>
+      <div className="navbar-dropdown">
+        <a className="navbar-item ">
+          Elements
+        </a>
       </div>
     </div>
+    <a className=" titl navbar-item has-text-black has-text-weight-bold">
+      CONTACT
+    </a>
   </div>
-</nav> 
+  </div>
+  </div>
+  </nav> 
+</section>
 )
 export default Header ;
