@@ -1,8 +1,8 @@
 import React from "react"
-
+import Feature from "../components/Feature";
 export default () => (
-<div style={{color: `red`}}>
-    
-    <a href="/" >HOME</a>
-</div>
+<div>
+  
+    <a href="/index" >piche chlo galt aa gye aa</a>
+    </div>
 )

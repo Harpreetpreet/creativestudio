@@ -2,10 +2,13 @@ import React from "react"
 import styled from "styled-components"
 const Container = styled.div `
   margin-top:2rem;
+  .head{
+    background-color:#DBD3DB;
+  }
 `
 const Header = () => (
   <section classname="section">
-    <nav className="navbar top is-fixed-top" role="navigation" aria-label="main navigation">
+    <nav className="head navbar top is-fixed-top " role="navigation" aria-label="main navigation">
     <div className="container">
     <Container className="img is-size-4 has-text-centered" > <img src="https://colorlib.com/preview/theme/shotgear/img/logo.png"></img>
     </Container>
