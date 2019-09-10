@@ -9,7 +9,7 @@ height:36rem;
     
 }
 .font{
-    text-align:center;
+   
 }
 .control{
     margin-top:2rem;
@@ -23,14 +23,18 @@ height:36rem;
 .toper{
     margin-top:2rem;
 }
+.icon{
+    color:white;
+}
 `
 const Footer =() =>(
     <Container className="foot">
-          <container>
+        <section className="section">
+          <div className="container">
     <div className="columns">
-              <div  className="column is-one-quarter">
+              <div  className="column">
             <div><h1 className="font  is-size-4 has-text-white has-text-weight-bold">OUR SERVICE</h1>
-            <ul className="toper has-text-grey is-size-6 has-text-weight-semibold has-text-centered">
+            <ul className="toper has-text-grey is-size-6 has-text-weight-semibold ">
                 <li>Car accident</li>
                 <li>Personal injury</li>
                 <li>Family law</li>
@@ -40,9 +44,9 @@ const Footer =() =>(
             </ul>
             </div>
         </div>
-        <div className="column is-one-quarter">
+        <div className="column">
             <div><h1 className="font  is-size-4 has-text-white has-text-weight-bold">CONTACT INFO</h1>
-            <ul className="toper has-text-grey is-size-6 has-text-weight-semibold has-text-centered">
+            <ul className="toper has-text-grey is-size-6 has-text-weight-semibold ">
                 <li>4361 Morningview Lane Artland ,
                   <span>Pall Street Latimer, IA 50452 / 23654</span>
                 </li>
@@ -52,7 +56,7 @@ const Footer =() =>(
             </ul>
             </div>
         </div>
-        <div className="column is-one-quarter">
+        <div className="column">
             <div>
             <h1 className="font  is-size-4 has-text-white has-text-weight-bold">INSTAGRAM</h1>
             <div className="columns img">
@@ -73,7 +77,7 @@ const Footer =() =>(
             </div>
             </div>
         </div>
-        <div className="column is-one-quarter">
+        <div className="column">
             <div><h1 className="font  is-size-4 has-text-white has-text-weight-bold">NEWSLETTER</h1>
             <ul className=" toper has-text-grey is-size-6 has-text-weight-semibold  ">
             <p>Stay updated with our latest trends see heaven so said place fruit.</p>
@@ -89,18 +93,25 @@ const Footer =() =>(
         </div>
          </div>
          <a>
-            <div className="pos">
-              <i className="fab fa-facebook-f"></i>
-              <i className="fab fa-twitter"></i>
-              <i className="fab fa-instagram"></i>
-              <i className="fab fa-skype"></i>
-            </div>
+         <span className="icon ">
+         <i className="fab fa-facebook-f"></i>
+         </span>
+         <span className="icon ">
+         <i className="fab fa-twitter"></i>
+         </span>
+         <span className="icon ">
+         <i className="fab fa-instagram"></i>
+         </span>
+         <span className="icon ">
+        <i className="fab fa-skype"></i>
+         </span>
          </a>
         </div>
         </div>
     </div>
     <p className=" copy has-text-centered has-text-weight-semibold">Copyright ©2019 All rights reserved | This template is made with  by Colorlib</p>
-    </container>
+   </div>
+    </section>
     </Container>
 );
 export default Footer;

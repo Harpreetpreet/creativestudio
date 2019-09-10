@@ -12,23 +12,15 @@ height:32rem;
     margin-top: 2rem;
 }
 .radius{
-    position: absolute;
-    margin-top: 3rem;
     padding: 1rem;
     border-radius: 37px;
     background: #272727;
-    margin-left: -3.5rem;
     color:white;
 }
 .radius:hover{
     background-color:#FF4800;
     color:white;
     }
-
-.section{
-    color:#5A352B;
-    margin-top:3rem;
-}
 `
 const Main = () => (   
     <Container>
@@ -45,7 +37,7 @@ THE CAMERA IS AN INSTRUMENT THAT TEACHES
 <p>
 It’s the end of summer the sweltering heat makes human sweat in the night and makes the plants and trees wilt even in the moonlit nights. The eastern wind breeze brings an eerie feeling, that the monsoon clouds are soon coming, there is a strange silence in the ears, the sky gets darker and darker, the flash of lightning illuminates the dark skies, the sound of thunder fills the heart with fear.
 </p>
-<a className="radius has-text-weight-semibold">READ MORE</a>
+<a className="radius has-text-weight-semibold has-text-centered">READ MORE</a>
 </div>
 </container>
 </section>

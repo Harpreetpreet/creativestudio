@@ -6,10 +6,11 @@ const Container = styled.div `
 
   const cardcontent =()=>(
     <a className="hover">
-     <Container className="columns "> 
-    
+     <Container >
+       <section className="section">
+         <div className="container">
+     <div className="columns ">
      <div className="column">
-       
      <div className="card-image text">
          <Card img="https://colorlib.com/preview/theme/shotgear/img/blog/blog_1.png" title="MAD WHALES GHATHERING OPEN CAN'T" subtitle="Is life form dominion under very seasons together them divide so, she'd bearing sixth"/>
          </div>
@@ -29,7 +30,9 @@ const Container = styled.div `
          </div>
         
           </div> 
-        
+        </div>
+        </div>
+       </section>
         </Container> 
         </a>
 
