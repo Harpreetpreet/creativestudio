@@ -8,7 +8,11 @@ margin-top:5rem;
  }
  .head{
       margin-top:2rem;
-  }
+}
+ .button:hover{
+     background:red;
+     color:white;
+}
 `
 const Main =() =>  (
 <Container>
@@ -21,7 +25,7 @@ const Main =() =>  (
     </span>
     <p className="column is-8 is-offset-2 has-text-centered">It’s the end of summer the sweltering heat makes human sweat in the night and makes the plants and trees wilt even in the moonlit nights. The eastern wind breeze brings an eerie feeling, that the monsoon clouds are soon coming, there is a strange silence in the ears, the sky gets darker and darker, the flash of lightning illuminates the dark skies, the sound of thunder fills the heart with fear.</p>
     <div className="buttons has-addons is-centered">
-    <a className="button is-primary is-rounded ">READ ME</a>
+    <a className="button is-rounded is-size-5">READ MORE</a>
     </div>
     </div>
     </section>

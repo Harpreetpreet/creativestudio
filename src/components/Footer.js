@@ -3,7 +3,6 @@ import styled from "styled-components"
 
 const Container=styled.div`
 background-color:#1E2528;
-height:36rem;
 .img{
     padding:36px;
     
@@ -70,8 +69,6 @@ const Footer =() =>(
                 </div>
                 <div className="column">
                     <img src="https://colorlib.com/preview/theme/shotgear/img/footer_img/footer_img_3.png" />
-                </div>
-                <div className="column">
                     <img src="https://colorlib.com/preview/theme/shotgear/img/footer_img/footer_img_4.png" />
                 </div>
             </div>
