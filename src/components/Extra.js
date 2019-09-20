@@ -23,33 +23,20 @@ const Container= styled.div`
 `
 const Extra =() => (
 <Container >
-<div className="back">
 <section className="section">
-<h3 className=" column is-7 is-offset-1 has-text-weight-bold is-size-5">OUR SERVICE</h3>
-<h1 className=" check is-size-1 has-text-weight-bold column is-7 is-offset-1">WHAT WE OFFER</h1>
-<div className="card">
-  <div className="card-image">
+       <h3 className="column is-7 is-offset-2 has-text-weight-bold is-size-5"> OUR SERVICE</h3>
+       <h1 className=" check is-size-1 has-text-weight-bold column is-7 is-offset-2">WHAT WE OFFER</h1>
+    </section>
+    <div className="columns">
+ <div className="column is-5">
+  <img src="https://colorlib.com/preview/theme/photography/img/contact-img.jpg" />
   </div>
-  <div className="card-content">
-    <div className="media">
-      <div className="media-left">
-        <figure className="image is-48x48">
-        <i className="flaticon-shirt"></i>
-        </figure>
-      </div>
-      <div className="media-content">
-        <p className="title is-4">John Smith</p>
-        <p className="subtitle is-6">@johnsmith</p>
-      </div>
-    </div>
-  
-    
-    </div>
+  <div className="column">
+    <h1 className="has-text-black is-size-3 has-text-weight-bold">Send me Message</h1>
+    <p className="has-text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+ </div>
+  </div>
 
-</div>
-
-</section>
-</div>
 </Container>
 );
 
