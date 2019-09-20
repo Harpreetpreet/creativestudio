@@ -2,12 +2,17 @@ import React from "react"
 import Card from "../components/Card"
 import styled from "styled-components"
 const Container = styled.div `
+.check{
+  color:#C49873;
+}
 `
-
   const cardcontent =()=>(
+    <Container >
+    <section className="section">
+    <h3 className="column is-7 is-offset-2 has-text-weight-bold is-size-5"> OUR BLOG</h3>
+    <h1 className=" check is-size-1 has-text-weight-bold column is-7 is-offset-2">LOVE STORY</h1>
+ 
     <a className="hover">
-     <Container >
-       <section className="section">
          <div className="container">
      <div className="columns ">
      <div className="column">
@@ -32,9 +37,9 @@ const Container = styled.div `
           </div> 
         </div>
         </div>
-       </section>
-        </Container> 
         </a>
+        </section>
+        </Container> 
 
 );
 export default cardcontent;
