@@ -31,6 +31,9 @@ const Container= styled.div`
     margin-top:2rem;
     font-size:small;
 }
+.icon{
+     margin-right:1rem;
+ }
 `
 const Extra =() => (
 <Container>
@@ -55,13 +58,15 @@ const Extra =() => (
     <input className="input" type="text" placeholder="Your Email Address" />
   </div>
   </div>
-  <div class="field">
-  <div class="control msg">
-    <textarea class="textarea" placeholder="Messege"></textarea>
+  <div className="field">
+  <div className="control msg">
+    <textarea className="textarea" placeholder="Messege"></textarea>
   </div>
 </div>
 <div className="column is-5 is-offset-6"> 
-<a class="button is-info is-rounded ">CONFIRM BOOKING</a>
+<a className="button is-info is-rounded ">CONFIRM BOOKING
+<i className="fas fa-long-arrow-alt-right icon"></i></a>
+
 </div>
  </div>
  
