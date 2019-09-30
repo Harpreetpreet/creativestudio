@@ -34,9 +34,9 @@ const Container= styled.div`
 .icon{
     margin-left:1rem !important;
 }
-.btn:hover{
-    background-color:red;
-    color-blue;
+.button:hover{
+    background-color:#7E92E6;
+    color:white;
 }
 `
 const Extra =() => (
