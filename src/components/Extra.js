@@ -32,8 +32,12 @@ const Container= styled.div`
     font-size:small;
 }
 .icon{
-     margin-right:1rem;
- }
+    margin-left:1rem !important;
+}
+.btn:hover{
+    background-color:red;
+    color-blue;
+}
 `
 const Extra =() => (
 <Container>
@@ -63,13 +67,13 @@ const Extra =() => (
     <textarea className="textarea" placeholder="Messege"></textarea>
   </div>
 </div>
-<div className="column is-5 is-offset-6"> 
-<a className="button is-info is-rounded ">CONFIRM BOOKING
-<i className="fas fa-long-arrow-alt-right icon"></i></a>
 
-</div>
+<div className="buttons has-addons is-right">
+  <a className="button is-rounded">CONFIRM BOOKING
+<i className="fas fa-long-arrow-alt-right icon" />
+</a>
  </div>
- 
+ </div>
 </div>
 
 </Container>
