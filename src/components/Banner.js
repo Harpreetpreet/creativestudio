@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 const Container = styled.h2`
-    background: url("https://colorlib.com/preview/theme/shotgear/img/banner_bg.png");
+    background: url("/static/images/pic01.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
