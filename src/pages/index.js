@@ -6,7 +6,7 @@ import Feature from "../components/Feature";
 import Extra from "../components/Extra";
 import Cardcontent from  "../components/Cardcontent";
 import Footer from "../components/Footer";
-import Last from "../components/Last"
+
 import styled from "styled-components"
 
 const Container = styled.div `
@@ -25,7 +25,7 @@ const Container = styled.div `
       <Extra />
       <Cardcontent />
       <Footer />
-      <Last />
+      
   </Container>
  
 )

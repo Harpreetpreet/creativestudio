@@ -47,7 +47,7 @@ const Extra =() => (
     </section>
     <div className="columns">
  <div className="column is-5">
-  <img src="https://colorlib.com/preview/theme/photography/img/contact-img.jpg" />
+  <img src="/images/contact-img.jpg" />
   </div>
   <div className="column is-4 is-offset-1">
     <h1 className="has-text-black is-size-2 has-text-weight-bold has-text-danger">Send me Message</h1>

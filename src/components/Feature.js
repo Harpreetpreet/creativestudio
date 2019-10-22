@@ -47,29 +47,29 @@ const Feature = () => (
     <div className="column">
     
     <div className="card-image photo2">
-        <img src="https://colorlib.com/preview/theme/shotgear/img/gallery/gallery_item_1.png"></img>
+        <img src="/images/gallery_item_1.png"></img>
     </div>
     <div className="card-image photo2">
-          <img src="https://colorlib.com/preview/theme/shotgear/img/gallery/gallery_item_4.png"></img>
+          <img src="/images/gallery_item_4.png"></img>
         </div>
     </div>
     <div className="column">
     
         <div className="card-image photo2">
-            <img src=" https://colorlib.com/preview/theme/shotgear/img/gallery/gallery_item_2.png"></img>
+            <img src="/images/gallery_item_2.png"></img>
         </div>
         <div className="card-image photo2">
-          <img src="https://colorlib.com/preview/theme/shotgear/img/gallery/gallery_item_5.png"></img>
+          <img src="/images/gallery_item_5.png"></img>
         </div>
     </div>
     
     <div className="column">
    
         <div className="card-image photo2">
-            <img src=" https://colorlib.com/preview/theme/shotgear/img/gallery/gallery_item_3.png"></img>
+            <img src="/images/gallery_item_3.png"></img>
         </div>
         <div className="card-image photo2">
-          <img src="https://colorlib.com/preview/theme/shotgear/img/gallery/gallery_item_6.png"></img>
+          <img src="/images/gallery_item_6.png"></img>
         </div>
     </div>
     </div>
