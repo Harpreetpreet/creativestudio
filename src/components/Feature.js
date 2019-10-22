@@ -23,25 +23,15 @@ const Feature = () => (
        <h1 className=" check is-size-1 has-text-weight-bold column is-7 is-offset-2">CHECK LATEST WORK</h1>
     </section>
 
-<nav className="navbar" role="navigation" aria-label="main navigation">
-    <div className="navbar-start has-text-weight-bold ">
-        <a className="navbar-item">
-         ALL PHOTOS
-        </a>
-        <a className="navbar-item">
-         WEEDING
-        </a>  
-        <a href="/about"className="navbar-item"> 
-         FASHION
-        </a>
-        <a className="navbar-item">
-         POTRAIT
-        </a>
-        <a className="navbar-item">
-         MAGAZINE
-        </a>
-    </div>
-</nav>
+    <div className="tabs">
+  <ul>
+    <li className="is-active"><a>ALL PHOTOS</a></li>
+    <li><a>WEDDING</a></li>
+    <li><a>FASHION</a></li>
+    <li><a>POTRAIT</a></li>
+    <li><a>MAGAZINE</a></li>
+  </ul>
+</div>
 <a>
 <div className="columns">
     <div className="column">
