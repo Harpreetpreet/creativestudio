@@ -14,7 +14,13 @@ const Container=styled.div`
   .photo2:hover {
     opacity: 2.0;
     filter: alpha(opacity=100); 
+  }.tabs{
+    margin-top: 1rem;
+    font-weight: 800;
+    font-family: cursive;
+    font-size: 20px
   }
+
 `
 const Feature = () => (
 <Container>
