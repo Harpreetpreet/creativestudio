@@ -7,7 +7,6 @@ const Container = styled.div `
   }
 `
 const Header = () => (
-  <section classname="section">
     <nav className="head navbar top is-fixed-top " role="navigation" aria-label="main navigation">
     <div className="container">
     <Container className="img is-size-4 has-text-centered" > <img src="https://colorlib.com/preview/theme/shotgear/img/logo.png"></img>
@@ -71,6 +70,6 @@ const Header = () => (
   </div>
   </div>
   </nav> 
-</section>
+
 )
 export default Header ;
