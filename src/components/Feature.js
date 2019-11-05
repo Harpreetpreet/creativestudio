@@ -3,8 +3,11 @@ import React from "react"
 import styled from "styled-components"
 
 const Container=styled.div`
+h3:hover{
+  color:red;
+}
 .check{
-    color:#C49873;
+    color:brown;
 }
 .photo2 {
     opacity: 0.5;

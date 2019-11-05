@@ -8,8 +8,11 @@ const Container= styled.div`
 .section{
    margin-top:5rem;
 }
+h3:hover{
+  color:red;
+}
 .check{
-    color:#C49873;
+    color:brown;
 }
 .extra{
     height:13rem;

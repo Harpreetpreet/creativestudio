@@ -3,7 +3,10 @@ import Card from "../components/Card"
 import styled from "styled-components"
 const Container = styled.div `
 .check{
-  color:#C49873;
+  color:brown;
+}
+h3:hover{
+  color:red;
 }
 `
   const cardcontent =()=>(
