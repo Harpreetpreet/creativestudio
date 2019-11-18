@@ -41,6 +41,9 @@ h3:hover{
     background-color:#7E92E6;
     color:white;
 }
+.column{
+  
+}
 `
 const Extra =() => (
 <Container>
