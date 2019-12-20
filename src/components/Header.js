@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+
 const Container = styled.div`
   margin-top: 2rem;
   .head {
@@ -15,7 +16,12 @@ const Header = () => (
     <div className="container">
       <Container className="img is-size-4 has-text-centered">
         {" "}
-        <img src="https://colorlib.com/preview/theme/shotgear/img/logo.png" alt=""/>
+        <a href="/">
+          <img
+            src="https://colorlib.com/preview/theme/shotgear/img/logo.png"
+            alt="logo"
+          />
+        </a>
       </Container>
       <a
         role="button"
