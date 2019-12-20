@@ -47,17 +47,17 @@ const Container = styled.div`
 const Extra = () => (
   <Container>
     <section className="section">
-      <h3 className="column is-7 is-offset-2 has-text-weight-bold is-size-5">
+      <h3 className="column is-7 is-offset-2 has-text-weight-bold is-size-5 has-text-centered">
         {" "}
         OUR SERVICE
       </h3>
-      <h1 className=" check is-size-1 has-text-weight-bold column is-7 is-offset-2">
+      <h1 className=" check is-size-1 has-text-weight-bold column is-7 is-offset-2  has-text-centered">
         WHAT WE OFFER
       </h1>
     </section>
     <div className="columns">
       <div className="column is-5">
-        <img src="/images/contact-img.jpg" />
+        <img src="/images/contact-img.jpg" alt="contacts" />
       </div>
       <div className="column is-4 is-offset-1">
         <h1 className="has-text-black is-size-2 has-text-weight-bold has-text-danger">

@@ -12,11 +12,11 @@ const Container = styled.div`
 const cardcontent = () => (
   <Container>
     <section className="section">
-      <h3 className="column is-7 is-offset-2 has-text-weight-bold is-size-5">
+      <h3 className="column is-7 is-offset-2 has-text-weight-bold is-size-5 has-text-centered ">
         {" "}
         OUR BLOG
       </h3>
-      <h1 className=" check is-size-1 has-text-weight-bold column is-7 is-offset-2">
+      <h1 className=" check is-size-1 has-text-weight-bold column is-7 is-offset-2 has-text-centered">
         LOVE STORY
       </h1>
 

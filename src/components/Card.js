@@ -17,7 +17,7 @@ const Card = props => (
   <Container>
     <div className="column">
       <div className="column">
-        <img src={props.img} />
+        <img src={props.img} alt="image"/>
       </div>
       <div className="card-content">
         <p className="title  has-text-weight-bold has-text-centered">

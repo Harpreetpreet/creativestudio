@@ -67,16 +67,16 @@ const Footer = () => (
               </h1>
               <div className="columns img">
                 <div className="column">
-                  <img src="https://colorlib.com/preview/theme/shotgear/img/footer_img/footer_img_1.png" />
-                  <img src="https://colorlib.com/preview/theme/shotgear/img/footer_img/footer_img_5.png" />
+                  <img src="https://colorlib.com/preview/theme/shotgear/img/footer_img/footer_img_1.png"  alt="" />
+                  <img src="https://colorlib.com/preview/theme/shotgear/img/footer_img/footer_img_5.png" alt="" />
                 </div>
                 <div className="column">
-                  <img src="https://colorlib.com/preview/theme/shotgear/img/footer_img/footer_img_2.png" />
+                  <img src="https://colorlib.com/preview/theme/shotgear/img/footer_img/footer_img_2.png" alt="" />
                   <img src="https://colorlib.com/preview/theme/shotgear/img/footer_img/footer_img_6.png" />
                 </div>
                 <div className="column">
-                  <img src="https://colorlib.com/preview/theme/shotgear/img/footer_img/footer_img_3.png" />
-                  <img src="https://colorlib.com/preview/theme/shotgear/img/footer_img/footer_img_4.png" />
+                  <img src="https://colorlib.com/preview/theme/shotgear/img/footer_img/footer_img_3.png" alt="" />
+                  <img src="https://colorlib.com/preview/theme/shotgear/img/footer_img/footer_img_4.png"  alt="" />
                 </div>
               </div>
             </div>

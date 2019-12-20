@@ -18,13 +18,13 @@ const Last = () => (
       <div className="column is-2 is-offset-6">
         <a>
           <span className="icon ">
-            <i className="fab fa-facebook-f"></i>
+            <i className="fab fa-facebook-f" />
 
-            <i className="fab fa-twitter"></i>
+            <i className="fab fa-twitter" />
 
-            <i className="fab fa-instagram"></i>
+            <i className="fab fa-instagram" />
 
-            <i className="fab fa-skype"></i>
+            <i className="fab fa-skype" />
           </span>
         </a>
       </div>

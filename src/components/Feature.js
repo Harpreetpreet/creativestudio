@@ -27,16 +27,16 @@ const Container = styled.div`
 const Feature = () => (
   <Container>
     <section>
-      <h3 className="column is-7 is-offset-2 has-text-weight-bold is-size-5">
+      <h3 className="column is-7 is-offset-2 has-text-weight-bold is-size-5 has-text-centered">
         {" "}
         RECENT PROJECT
       </h3>
-      <h1 className=" check is-size-1 has-text-weight-bold column is-7 is-offset-2">
+      <h1 className=" check is-size-1 has-text-weight-bold column is-7 is-offset-2 has-text-centered">
         CHECK LATEST WORK
       </h1>
     </section>
 
-    <div className="tabs">
+    <div className="tabs is-centered">
       <ul>
         <li className="is-active">
           <a>ALL PHOTOS</a>
@@ -59,27 +59,27 @@ const Feature = () => (
       <div className="columns">
         <div className="column">
           <div className="card-image photo2">
-            <img src="/images/gallery_item_1.png"></img>
+            <img src="/images/gallery_item_1.png" alt="content"/>
           </div>
           <div className="card-image photo2">
-            <img src="/images/gallery_item_4.png"></img>
+            <img src="/images/gallery_item_4.png" alt="content"/>
           </div>
         </div>
         <div className="column">
           <div className="card-image photo2">
-            <img src="/images/gallery_item_2.png"></img>
+            <img src="/images/gallery_item_2.png" alt="content"/>
           </div>
           <div className="card-image photo2">
-            <img src="/images/gallery_item_5.png"></img>
+            <img src="/images/gallery_item_5.png" alt="content"/>
           </div>
         </div>
 
         <div className="column">
           <div className="card-image photo2">
-            <img src="/images/gallery_item_3.png"></img>
+            <img src="/images/gallery_item_3.png" alt="content"/>
           </div>
           <div className="card-image photo2">
-            <img src="/images/gallery_item_6.png"></img>
+            <img src="/images/gallery_item_6.png" alt="content"/>
           </div>
         </div>
       </div>

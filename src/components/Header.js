@@ -15,7 +15,7 @@ const Header = () => (
     <div className="container">
       <Container className="img is-size-4 has-text-centered">
         {" "}
-        <img src="https://colorlib.com/preview/theme/shotgear/img/logo.png"></img>
+        <img src="https://colorlib.com/preview/theme/shotgear/img/logo.png" alt=""/>
       </Container>
       <a
         role="button"
