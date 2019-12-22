@@ -23,7 +23,7 @@ const Card = props => (
         <p className="title  has-text-weight-bold has-text-centered">
           {props.title}
         </p>
-        <p className="subtitle has-text-weight-semibold ">{props.subtitle}</p>
+        <p className="subtitle has-text-weight-semibold has-text-centered">{props.subtitle}</p>
       </div>
     </div>
   </Container>
