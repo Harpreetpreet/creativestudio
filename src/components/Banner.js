@@ -3,7 +3,7 @@ import React from "react"
 import styled from "styled-components"
 
 const Container = styled.div`
-  background: url("/images/pic01.jpg");
+  background: url("/images/bgimage.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -34,7 +34,7 @@ const Banner = () => (
           </span>
         </h1>
       </div>
-      <h3 className=" item has-text-centered has-text-white column is-3 is-offset-7">
+      <h3 className="item has-text-centered has-text-white column is-3 is-offset-7">
         Capturing moments from today
       </h3>
     </div>
